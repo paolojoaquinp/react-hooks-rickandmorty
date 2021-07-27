@@ -1,0 +1,20 @@
+:root {
+    --background-primary: white;
+    --background-secondary: #161681;
+    --color-font: black;
+    --font-card: white;
+}
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin:0;
+}
+
+html {
+    font-size: 62.5%;
+    font-family: "DM Sans", sans-serif;
+}
+body {
+    background-color: var(--background-primary);
+    transition: background-color 0.5s ease-in-out;
+}

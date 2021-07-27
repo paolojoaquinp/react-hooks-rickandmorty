@@ -1,0 +1,25 @@
+.Header {
+    background: transparent;
+    width: 100%;
+    height: 75px;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 30px;
+    align-items: center;
+    h1 {
+        color: var(--color-font);
+    }
+}
+.Header__actions {
+    width: auto;
+    height: auto;
+    button {
+        padding: 10px 15px;
+        font-size: 1.4rem;
+        border: none;
+        color: var(--background-primary);
+        background-color: var(--color-font);
+        border-radius: 15px;
+        font-weight: bold;
+    }
+}
